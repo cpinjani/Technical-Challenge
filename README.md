@@ -1,5 +1,5 @@
 # Technical-Challenge
-Tests are intended to run on Centos 7 version having graphical GUI. \
+Tests are intended to run on Centos 7 version having graphical GUI. 
 
 Please check executable permissions of shell files before running tests (create_gcp_vm.sh, install_rancher_api.sh, install_rancher_ui.sh) \
 Ref command: \

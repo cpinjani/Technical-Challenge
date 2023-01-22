@@ -15,7 +15,7 @@ $ wget https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodri
 $ tar -xf geckodriver-v0.26.0-linux64.tar.gz \
 $ sudo chmod +x geckodriver \
 $ sudo mv geckodriver /usr/local/bin/ \
-$ sudo reboot \
+$ sudo reboot 
 
 Run test: \
 $ python3 ui_login.py 
@@ -29,14 +29,14 @@ Ref commands: \
 $ sudo pip3 install requests \
 $ sudo docker ps \
 $ sudo docker stop <container_id> \
-$ sudo docker rm <container_id> \
+$ sudo docker rm <container_id> 
 
 Run test: \
 $ python3 api_login.py
 
 ---------------------------------------------------------
 Level 3.
-- gcloud cli installed and login to gcloud performed. \
+- gcloud cli installed and login to gcloud performed. 
 
 Run test: \
-$ sh create_gcp_vm.sh \
+$ sh create_gcp_vm.sh 

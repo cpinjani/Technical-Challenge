@@ -1,5 +1,6 @@
 # Technical-Challenge
-Tests are intended to run on Centos 7 version having graphical GUI \
+Tests are intended to run on Centos 7 version having graphical GUI. \
+
 Please check executable permissions of shell files before running tests (create_gcp_vm.sh, install_rancher_api.sh, install_rancher_ui.sh) \
 Ref command: \
 $ sudo chmod +x script.sh 
@@ -23,7 +24,7 @@ $ python3 ui_login.py
 ---------------------------------------------------------
 
 Level 2.
-- Remove the existing container rancher_ui before running level 2 test (since it uses the same ports) \
+- Remove the existing container rancher_ui before running level 2 test (since it uses the same ports) 
 - Install python3 and requests module \
 Ref commands: \
 $ sudo pip3 install requests \

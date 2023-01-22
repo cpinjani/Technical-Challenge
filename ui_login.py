@@ -23,7 +23,7 @@ class RancherLogin():
         #Performing Rancher single node docker install
         subprocess.call(["./install_rancher_ui.sh"])
         
-        #Sleeping for conatiner to come up
+        #Sleeping for container to come up
         time.sleep(60)
         
         #Get container id
@@ -61,5 +61,5 @@ class RancherLogin():
 
 run = RancherLogin()
 pwd = run.setUp()
-run.rancher_ui_test("10.101.47.162", pwd)
+run.rancher_ui_test("127.0.0.1", pwd)
 run.tearDown()

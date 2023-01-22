@@ -12,7 +12,7 @@ import subprocess, time
 #Performing Rancher single node docker install
 subprocess.call(["./install_rancher_api.sh"])
 
-#Sleeping for conatainer to come up
+#Sleeping for container to come up
 time.sleep(60)
 
 #Get container id

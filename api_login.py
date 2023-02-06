@@ -23,7 +23,7 @@ assert cid != ""
 pwd = subprocess.getoutput(f"sudo docker logs {cid} 2>&1 | grep -i 'Bootstrap Password:'")
 pwd = pwd.split(" ")[-1]
 
-req_data = {"username": "adin", "password": pwd, "responseType":"cookie"}
+req_data = {"username": "admin", "password": pwd, "responseType":"cookie"}
 
 #Login function
 def login(ip, data):
